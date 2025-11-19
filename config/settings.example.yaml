@@ -1,0 +1,18 @@
+environment: dev
+mock_embeddings: true
+embedding:
+  base_url: http://localhost:8000
+  api_key: dev-key
+  model: text-embedding-3-large
+# Uncomment and fill to push directly to Azure AI Search
+# azure_search:
+#   endpoint: https://example.search.windows.net
+#   api_key: $SEARCH_API_KEY
+#   index_name: engineering-specs
+retrieval:
+  candidate_k: 60
+  final_context_chunks: 12
+  semantic_configuration:
+rerank:
+  enabled: true
+  max_to_score: 40
