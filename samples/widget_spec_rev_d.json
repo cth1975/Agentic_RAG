@@ -1,0 +1,17 @@
+{
+  "doc_id": "SPEC-1234",
+  "rev": "D",
+  "title": "Widget Spec",
+  "effective_date": "2025-06-12",
+  "allowed_groups": ["ME-Design", "QA-Compliance"],
+  "source_url": "sharepoint://widgets/specs/SPEC-1234D.pdf",
+  "blocks": [
+    {"page": 1, "kind": "heading", "text": "Scope"},
+    {"page": 1, "kind": "para", "text": "This specification covers Widget-X torque requirements."},
+    {"page": 1, "kind": "heading", "text": "Requirements"},
+    {"page": 1, "kind": "para", "text": "Nominal torque shall be 55 N·m ± 5%."},
+    {"page": 2, "kind": "para", "text": "Use Material AMS-4928 with process Heat-Treat-X."},
+    {"page": 3, "kind": "heading", "text": "Testing"},
+    {"page": 3, "kind": "para", "text": "Run vibration test per TR-808 with dwell time of 60 minutes."}
+  ]
+}
